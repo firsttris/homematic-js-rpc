@@ -1,0 +1,38 @@
+{
+  "name": "homematic-js-rpc",
+  "version": "1.0.0",
+  "description": "lightweight Javascript interface for Homematic XML-RPC",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/dimmer.spec.js"
+  },
+  "homematic": {
+    "host": "20.1.0.50",
+    "port": "2001",
+    "devices": {
+      "bedroomDimLight": "LEQ0990753:1",
+      "keymatic": "KEQ1063873:1"
+    }
+  },
+  "keywords": [
+    "rega",
+    "xml-rpc",
+    "homematic",
+    "internet-of-things",
+    "iot",
+    "javascript",
+    "nodejs"
+  ],
+  "author": "Tristan Teufel",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firsttris/homematic-js-rpc.git"
+  },
+  "dependencies": {
+    "xmlrpc": "^1.3.2"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
+}
