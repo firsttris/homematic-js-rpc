@@ -2,7 +2,7 @@
 :house: lightweight Javascript interface for Homematic XML-RPC
 
 [![npm version](https://badge.fury.io/js/homematic-js-rpc.svg)](https://badge.fury.io/js/homematic-js-rpc)
-[![Dependency Status](https://david-dm.org/firsttris/homematic-js-rpc.svg)](https://david-dm.org/firsttris/homematic-js-rpc) 
+
 ```
 npm install homematic-js-rpc
 ```
