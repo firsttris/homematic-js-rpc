@@ -1,3 +1,4 @@
+"use strict";
 const assert = require('assert');
 const Homematic = require('./../index');
 const path = require('path');
