@@ -7,7 +7,7 @@
 npm install homematic-js-rpc
 ```
 
-### Basic Usage
+## Basic Usage
 ```
 const homematic = new (require('homematic-js-rpc'))('20.1.0.50', '2001');
 homematic.setValue("LEQ123456:1", "LEVEL", "0.3", (error, response) => {
@@ -16,7 +16,7 @@ homematic.getValue("LEQ123456:1", "LEVEL", (error,response) => {
 });
 ```
 
-### Tests
+## Tests
 Find more examples in "test" directory.
 
 Enter you homematic server connection in package.json, and run some tests!
@@ -35,3 +35,7 @@ run a single test from commandline with:
 ```
 mocha test/dimmer.spec.js -g "getValue should return 0"
 ```
+
+## License
+
+[MIT](http://opensource.org/licenses/MIT)
